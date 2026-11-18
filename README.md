@@ -1,6 +1,6 @@
 # Supressão de células e equidade de gênero entre Cientistas de Dados (RAIS 2023–2025)
 
-Código e tabelas do artigo **"Potenciais impactos da supressão de dados na análise da equidade de gênero entre Cientistas de Dados no Brasil"** (TCC, MBA em Business Intelligence & Analytics, USP/ECA).
+Código e tabelas do artigo **"Supressão de dados e qualidade analítica na análise da equidade de gênero entre Cientistas de Dados"** (TCC, MBA em Business Intelligence & Analytics, USP/ECA).
 
 O estudo usa os **microdados públicos da RAIS Vínculos** (MTE) dos anos-base 2023, 2024 e 2025 para a ocupação **CBO 2112-20 – Cientista de dados**, simula a supressão de células (limiares k = 3, 5 e 10; supressão primária e complementar) e mede o efeito sobre indicadores de equidade de gênero.
 
@@ -9,6 +9,7 @@ O estudo usa os **microdados públicos da RAIS Vínculos** (MTE) dos anos-base 2
 ```
 notebooks/
   01_carga_rais.ipynb     # microdados (.COMT) -> um banco DuckDB por ano
+  01_carga_rais_v2.ipynb  # microdados (.COMT) -> um banco DuckDB por ano (versão otimizada para uso de memória)
   02_analise_rais.ipynb   # validação, resultados, simulação de supressão e apêndice
 tabelas/
   tabelas_tcc_rais.xlsx   # tabelas finais do artigo (agregadas, sem identificação individual)
