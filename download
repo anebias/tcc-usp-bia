@@ -1,0 +1,12 @@
+# Dados e bancos (grandes; os microdados são públicos no site do MTE)
+*.duckdb
+*.duckdb.wal
+*.COMT
+*.7z
+*.zip
+RAIS_VINC_PUB_*/
+figuras/
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
